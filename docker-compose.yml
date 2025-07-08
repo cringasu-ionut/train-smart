@@ -6,7 +6,6 @@ services:
     container_name: gitbox
     volumes:
       - ~/.ssh:/home/devuser/.ssh:ro
-      - ~/.gitconfig:/home/devuser/.gitconfig:ro
       - ./:/repo
     working_dir: /repo
     stdin_open: true
