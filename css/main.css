@@ -6,9 +6,9 @@ html {
   background-size: cover; }
 
 .site-bg-img {
-  height: 100vh;
-  min-height: 480px;
-  max-height: 1080px; }
+    padding-top: 100px;
+    min-height: 100vh;
+}
 
 .top-nav-collapse {
   background-color: #2b343d !important; }
